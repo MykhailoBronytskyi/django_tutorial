@@ -3,10 +3,11 @@
 
 ### Part 1 - Getting Started (check)
 ### Part 2 - Applications and Routes (check)
+### Part 3 - Templates (check)
 
 ----------------
-### Part 3 - Templates (TBD)
-### Part 4 - (TBD)
+### Part 4 - Admin page (TBD)
+### Part 5 - (TBD)
 
 ### Commands
 
