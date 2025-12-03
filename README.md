@@ -53,11 +53,14 @@ python manage.py createsuperuser
 <!-- TestUser -->
 <!-- password: testing321 -->
 
+#### Make migrations (to the DB) after creating Post class model (DB)
+```
 python manage.py makemigrations
 python manage.py sqlmigrate blog 0001
 python manage.py migrate
-
-django python shell:
+```
+#### django python shell:
+```
 python manage.py shell -i python
 
 from blog.models import Post
@@ -98,3 +101,4 @@ user.post_set
 user.post_set.all()
 user.post_set.create(title='Blog 3', content='Third Post Content!')
 Post.objects.all()
+```
